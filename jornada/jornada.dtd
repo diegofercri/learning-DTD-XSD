@@ -1,0 +1,13 @@
+<!ELEMENT jornada (denominacion, categoria, partido+)>
+<!ATTLIST jornada numero CDATA #REQUIRED>
+<!ELEMENT denominacion (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT partido (local, visitante, goleslocal, golesvisitante)>
+<!ATTLIST partido fecha CDATA #REQUIRED>
+<!ATTLIST partido hora CDATA #REQUIRED>
+<!ELEMENT local (#PCDATA)>
+<!ATTLIST local escudo CDATA #REQUIRED>
+<!ELEMENT visitante (#PCDATA)>
+<!ATTLIST visitante escudo CDATA #REQUIRED>
+<!ELEMENT goleslocal (#PCDATA)>
+<!ELEMENT golesvisitante (#PCDATA)>
