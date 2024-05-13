@@ -4,61 +4,61 @@
 <jornada numero="32">
     <denominacion>Liga Santander</denominacion>
     <categoria>1ª División</categoria>
-    <partido fecha="15 Abril" hora="21:00">
+    <partido fecha="15 Abril" hora="21:00:00">
         <local escudo="188">R. Sociedad</local>
         <visitante escudo="185">Betis</visitante>
         <goleslocal>0</goleslocal>
         <golesvisitante>0</golesvisitante>
     </partido>
-    <partido fecha="16 Abril" hora="14:00">
+    <partido fecha="16 Abril" hora="14:00:00">
         <local escudo="954">Elche</local>
         <visitante escudo="181">Mallorca</visitante>
         <goleslocal>3</goleslocal>
         <golesvisitante>0</golesvisitante>
     </partido>
-    <partido fecha="16 Abril" hora="16:15">
+    <partido fecha="16 Abril" hora="16:15:00">
         <local escudo="173">Alaves</local>
         <visitante escudo="184">Rayo</visitante>
         <goleslocal>1</goleslocal>
         <golesvisitante>0</golesvisitante>
     </partido>
-    <partido fecha="16 Abril" hora="18:30">
+    <partido fecha="16 Abril" hora="18:30:00">
         <local escudo="191">Valencia</local>
         <visitante escudo="450">Osasuna</visitante>
         <goleslocal>1</goleslocal>
         <golesvisitante>2</golesvisitante>
     </partido>
-    <partido fecha="16 Abril" hora="21:00">
+    <partido fecha="16 Abril" hora="21:00:00">
         <local escudo="1450">Getafe</local>
         <visitante escudo="449">Villarreal</visitante>
         <goleslocal>1</goleslocal>
         <golesvisitante>2</golesvisitante>
     </partido>
-    <partido fecha="17 Abril" hora="14:00">
+    <partido fecha="17 Abril" hora="14:00:00">
         <local escudo="5683">Granada</local>
         <visitante escudo="855">Levante</visitante>
         <goleslocal>1</goleslocal>
         <golesvisitante>4</golesvisitante>
     </partido>
-    <partido fecha="17 Abril" hora="16:15">
+    <partido fecha="17 Abril" hora="16:15:00">
         <local escudo="175">Atlético</local>
         <visitante escudo="177">Español</visitante>
         <goleslocal>2</goleslocal>
         <golesvisitante>1</golesvisitante>
     </partido>
-    <partido fecha="17 Abril" hora="18:30">
+    <partido fecha="17 Abril" hora="18:30:00">
         <local escudo="174">Athletic</local>
         <visitante escudo="176">Celta</visitante>
         <goleslocal>0</goleslocal>
         <golesvisitante>2</golesvisitante>
     </partido>
-    <partido fecha="17 Abril" hora="21:00">
+    <partido fecha="17 Abril" hora="21:00:00">
         <local escudo="179">Sevilla</local>
         <visitante escudo="186">R. Madrid</visitante>
         <goleslocal>2</goleslocal>
         <golesvisitante>3</golesvisitante>
     </partido>
-    <partido fecha="18 Abril" hora="21:00">
+    <partido fecha="18 Abril" hora="21:00:00">
         <local escudo="178">Barcelona</local>
         <visitante escudo="1737">Cádiz</visitante>
         <goleslocal>0</goleslocal> 

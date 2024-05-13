@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="jornada">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="denominacion" maxOccurs="1" type="xs:string"></xs:element>
+                <xs:element name="categoria" maxOccurs="1" type="xs:string"></xs:element>
+                <xs:element ref="partido" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="numero" type="xs:integer" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="partido">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="local" maxOccurs="1"></xs:element>
+                <xs:element ref="visitante" maxOccurs="1"></xs:element>
+                <xs:element name="goleslocal" maxOccurs="1" type="xs:integer"></xs:element>
+                <xs:element name="golesvisitante" maxOccurs="1" type="xs:integer"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="fecha" type="xs:string" use="required"></xs:attribute>
+            <xs:attribute name="hora" type="xs:time" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="local">
+        <xs:complexType mixed="true">
+            <xs:attribute name="escudo" type="xs:integer" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="visitante">
+        <xs:complexType mixed="true">
+            <xs:attribute name="escudo" type="xs:integer" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
